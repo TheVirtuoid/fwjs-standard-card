@@ -4,6 +4,8 @@ This repository is for the 'StandardCard' classes used in the Fun with JavaScrip
 
 ## Versions
 
+1.0.1 : Added 'gut' check test for Card.clone() method.
+
 1.0.0 : Initial Version
 
 
