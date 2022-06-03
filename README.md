@@ -4,6 +4,8 @@ This repository is for the 'StandardCard' classes used in the Fun with JavaScrip
 
 ## Versions
 
+1.1.0 : Added 'toString()' method to override same method on Card.
+
 1.0.1 : Added 'gut' check test for Card.clone() method.
 
 1.0.0 : Initial Version
@@ -36,6 +38,12 @@ are limited by the enumerations of ```StandardCardRanks``` and ```StandardCardSu
 #### Methods
 
 (see [@virtuoid/cards](https://github.com/TheVirtuoid/fwjs-card) for methods of the inherited Card class)
+
+
+| Name       | Returns | Description                                            |
+|------------|---------|--------------------------------------------------------|
+| toString() | string  | Returns 'rank' and 'suit' abbreviations, concatenated. |
+
 
 No additional methods have been added.
 

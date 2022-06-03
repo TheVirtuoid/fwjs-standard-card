@@ -13,6 +13,11 @@ class StandardCard extends Card {
 		}
 		super(standardCardArguments);
 	}
+
+	toString() {
+		return `${this.rank.abbreviation}${this.suit.abbreviation}`;
+	}
+
 }
 
 export { Ranks as StandardCardRanks, Suits as StandardCardSuits, StandardCard }

@@ -11,4 +11,12 @@ describe('different methods', () => {
 			expect(newCard instanceof StandardCard).to.be.true;
 		});
 	});
+	it('should create the correct toString()', () => {
+		const standardCard = new StandardCard({
+			suit: StandardCardSuits.HEART,
+			rank: StandardCardRanks.ACE,
+			value: 1
+		});
+		expect(standardCard.toString()).to.equal('ah');
+	});
 });

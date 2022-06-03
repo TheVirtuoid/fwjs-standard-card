@@ -1,10 +1,11 @@
 {
   "name": "@virtuoid/standard-card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The Standard Card Class - by TheVirtuoid and Fun With JavaScript",
   "main": "dist/StandardCard.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:e2e": "cypress open"
   },
   "repository": {
     "type": "git",
